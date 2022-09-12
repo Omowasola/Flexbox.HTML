@@ -60,12 +60,14 @@ button{
   
 .container2{
 background-color: hsl(184, 100%, 22%);
+/* letter-spacing: 1px; */
 
  
 }
 .container3{
 background-color: hsl(179, 100%, 22%);
 border-radius: 0 10px 10px 0;
+/* letter-spacing: 1px; */
 }
 .container1 button{
    color: hsl(31, 77%, 52%);
@@ -98,4 +100,10 @@ border-radius: 0 10px 10px 0;
    transition: 1s ease;
 
 }
+@media{
+   max-width: 768px;
+
+}
+
+
  
