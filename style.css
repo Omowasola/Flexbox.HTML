@@ -1,68 +1,101 @@
- body{
-    background-color: rgb(245, 237, 237);
- } 
- section{
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    /* padding: 60px; */
-    flex-direction: row;
-    background-color: hsla(0, 14%, 83%, 0.75);
-    border-radius: 2px;
-    text-align: center;
-    margin: 100px 50px 50px 50px;
- }
- section div{
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
 
- }
- section div:first-child{
-    background-color: hsl(31, 77%, 52%);
-    color: hsla(0, 14%, 83%, 0.75); 
-    
+  { padding:0;
+   margin:0;
+   box-sizing:border-box; 
+}
+body{
+   font-family: 'Lexand Deca',sans-serif;
+   color: hsla(0, 14%, 83%, 0.75); 
+   background-color: rgb(245, 237, 237)
+}
 
- }
- section div:nth-child(2){
-    background-color: hsl(184, 100%, 22%);
-    color: hsla(0, 14%, 83%, 0.75);
- }
- section div:nth-child(3){
-    background-color: hsl(179, 100%, 13%);
-    color: hsla(0, 14%, 83%, 0.75);
-    text-align: center;
- }
-
-
-   
-    
-
- button{
-padding: 10px;
-margin: 10px 10px 10px 10px;
-border-radius: 50px;
-border:0px rgb(250, 249, 249)
- }
- .botton3{
-    margin: 10px 10px 10px 10px;
- }
-   .botton1:hover{
-   background-color: hsl(31, 77%, 52%);
-   }
-   .botton2:hover{
-   background-color: hsl(184, 100%, 22%);
-   }
-   .botton3:hover{
-   background-color: hsl(179, 100%, 13%);
-   }
-    
+main{
+   display: flex;
+   height: 600px;
+   align-items: center;
+  justify-content: center;
   
 
-
+}
+div{
+   width: 20vw;
+   height: 50vh;
+   padding: 35px;
+   text-align: center;
+   /* box-sizing: border-box; */
+  
+   
+}
+h2{
+   font-family: 'Big Shoulders Display', cursive;
+   text-transform: uppercase;
+   margin-bottom: 7px;
+}
 p{
-    
-        margin: 20px 20px 20px 20px;
-        color: hsla(0, 0%, 100%, 0.75);
-        font-size: 15px;
+   font-size: 16px;
+   margin-bottom: 10px 10px 10px 10px;
+   font-family: 'Big Shoulders Display', cursive;
 }
 img{
-    margin-top: 10px;
+   margin-bottom: 7px;
 }
+button{
+    padding: 8px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 50px;
+    border: 0px  rgb(250, 249, 249);
+    cursor: pointer;
+    margin-top: 17px;
+    width: 120px;
+
+}
+.container1{
+   background-color: hsl(31, 77%, 52%);
+   text-align: center;
+   letter-spacing: 1px;
+   border-radius: 10px 0px 0px 10px;
+}
+  
+.container2{
+background-color: hsl(184, 100%, 22%);
+
+ 
+}
+.container3{
+background-color: hsl(179, 100%, 22%);
+border-radius: 0 10px 10px 0;
+}
+.container1 button{
+   color: hsl(31, 77%, 52%);
+   
+}
+.container2 button{
+   color: hsl(184, 100%, 22%);
+}
+.container3 button{
+   color: hsl(179, 100%, 22%);
+}
+.container1 button:hover{
+   background-color: hsl(31, 77%, 52%);
+   color: hsla(0, 14%, 83%, 0.75);
+   border: 2px solid hsla(0, 14%, 83%, 0.75);
+   transition: 1s ease;
+
+}
+.container2 button:hover{
+   background-color: hsl(184, 100%, 22%);
+   color: hsla(0, 14%, 83%, 0.75);
+   border: 2px solid hsla(0, 14%, 83%, 0.75);
+   transition: 1s ease;
+
+}
+.container3 button:hover{
+   background-color: hsl(179, 100%, 22%);
+   color: hsla(0, 14%, 83%, 0.75);
+   border: 2px solid hsla(0, 14%, 83%, 0.75);
+   transition: 1s ease;
+
+}
+ 
